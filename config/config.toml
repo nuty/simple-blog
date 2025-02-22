@@ -1,0 +1,14 @@
+[database]
+host = "db"
+port = 5432
+user = "postgres"
+password = "helloworld"
+dbname = "postgres"
+sslmode = "disable"
+redis_addr = "127.0.0.1:6379"
+
+[email]
+host = "smtp.aa.com"
+port = "587"
+from = "aa@aa.aa"
+password = "helloworld"
