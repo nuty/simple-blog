@@ -2,7 +2,7 @@ import requests
 import json
 
 
-BASE_URL = "http://172.27.10.87:3001/api/v1"
+BASE_URL = "http://172.27.10.87:3001/api/v1" # 测试时需要修改
 def create_comment(article_id, content, parent_comment_id=None):
     url = f"{BASE_URL}/comments"
     payload = {
